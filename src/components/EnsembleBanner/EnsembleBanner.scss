@@ -1,0 +1,42 @@
+.ensemble-banner {
+  background-color: $mainWhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+
+  img {
+    width: 390px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    color: $mainRed;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Oswald";
+  }
+
+  p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: #777777;
+  }
+
+  button {
+    margin-bottom: 30px;
+    color: $mainBlue;
+    background-color: $mainWhite;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    border: solid #dddddd 1px;
+    border-radius: 4px;
+    padding: 6px 0;
+    width: 150px;
+  }
+}

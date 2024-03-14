@@ -1,0 +1,57 @@
+footer {
+  width: 390px;
+  height: max-content;
+  padding: 25px 20px;
+  background-color: $mainRed;
+  padding-bottom: 0px;
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    &__logo {
+      color: $mainWhite;
+      font-size: 20px;
+      text-decoration: none;
+      font-family: "Oswald";
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      margin-bottom: 25px;
+    }
+
+    .footer-list {
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+      }
+      &__item {
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: $mainWhite;
+        font-family: "Montserrat";
+      }
+    }
+
+    .footer-socials {
+      display: block !important;
+      font-size: 1.6rem;
+
+      a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: $mainWhite;
+      }
+    }
+
+    img {
+      width: 224px;
+      height: 77px;
+      display: flex;
+      margin-inline: auto;
+      transform: translateY(-25px);
+      z-index: 1;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.findMusiker-section {
+  width: 100%;
+  background-color: $mainWhite;
+  padding: 0 20px;
+  padding-bottom: 20px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.findMusiker-headerdiv {
+  h2 {
+    font-size: 30px;
+    font-family: "Oswald";
+    font-weight: 600;
+    color: $mainBlue;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: #777777;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+}
+
+.select-instrument {
+  font-family: "Montserrat";
+  color: #777777;
+  display: flex;
+  width: 100%;
+  padding: 12px 12px 15px 15px;
+  border-radius: 8px;
+  border: 1px solid $lightGrey;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23bf1e2e' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+}
+
+.findMusiker-button {
+  img {
+    width: 17px;
+    margin-right: 5px;
+  }
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 43px;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: $mainBlue;
+  text-align: center;
+  border: solid 1px $lightGrey;
+  border-radius: 8px;
+  background-color: $mainWhite;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,24 @@
+.h1{
+    text-align: center;
+    color: #353A5D;
+    font-family: Oswald;
+    font-size: 20px;
+}
+.contact-popup{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    padding: 25px 15px;
+    border-radius: 10px;
+    background-color: $mainWhite;
+}
+.number-btn{
+@include button();
+}
+.email-btn{
+@include button();
+}
+.tilbage-btn{
+@include button2();
+margin-top: 18px;
+}

@@ -1,0 +1,24 @@
+section {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 390px;
+    height: auto;
+  }
+
+  h1 {
+    color: $mainRed;
+    font-size: 30px;
+    font-family: "Oswald";
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,109 @@
+.mobile-nav {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $mainWhite;
+  padding: 0 20px;
+  z-index: 10 !important;
+  position: relative;
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Oswald";
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: $mainRed;
+    z-index: 10;
+
+    span {
+      color: $mainBlue;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.15px;
+    }
+  }
+
+  &__icon {
+    cursor: pointer;
+    font-size: 1.6rem;
+    z-index: 10;
+  }
+
+  .menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    width: 390px;
+    height: max-content;
+    top: 65px;
+    right: 0;
+    padding: 0 20px 10px 20px;
+    background-color: $mainWhite;
+    opacity: 1;
+    transition: all 0.5 ease;
+
+    &__hidden {
+      display: none;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__item {
+      text-align: center;
+      margin-bottom: 12px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: $mainBlue;
+      font-family: "Montserrat";
+
+      &:first-child {
+        margin-top: 12px;
+      }
+
+      &:last-child {
+        margin-bottom: 32px;
+        margin-top: 12px;
+      }
+    }
+
+    .bruger-btn {
+      @include button();
+    }
+
+    .login-btn {
+      @include button2();
+
+      &:last-child {
+        margin-bottom: 12px;
+        margin-top: 0;
+      }
+    }
+  }
+}
+.overlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 390px;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.4);
+
+  &__hidden {
+    display: none;
+  }
+}
+
+.nonebutton {
+  border: none;
+  background: none;
+}

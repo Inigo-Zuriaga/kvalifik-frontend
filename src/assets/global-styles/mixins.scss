@@ -1,0 +1,25 @@
+@mixin button {
+  color: $mainWhite;
+  background-color: $mainBlue;
+  margin-top: 18px;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+@mixin button2 {
+  color: $mainBlue;
+  background-color: $mainWhite;
+  padding: 15px 0;
+  border: solid #dddddd 2px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}

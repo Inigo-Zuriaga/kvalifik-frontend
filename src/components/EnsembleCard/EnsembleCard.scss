@@ -1,0 +1,74 @@
+.ensemble__card-container {
+  display: block;
+  width: 100%;
+  height: max-content;
+  border: 1px solid $lightGrey;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  margin-bottom: 20px;
+
+  .ensemble__card-data {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: #f9f9f9;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      margin: 0;
+      padding: 0;
+
+      h3 {
+        color: $mainRed;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 0;
+        padding: 0;
+        text-transform: capitalize;
+      }
+
+      p {
+        margin: 0;
+        font-size: 12px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      color: $mainBlue;
+      margin: 0;
+    }
+  }
+
+  .ensemble__card-description {
+    padding: 20px;
+
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      color: $mainBlue;
+      margin: 0;
+      margin-bottom: 15px;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      h4 {
+        margin: 0;
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+  }
+}

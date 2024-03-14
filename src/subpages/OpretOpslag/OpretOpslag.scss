@@ -1,0 +1,144 @@
+.opretOpslag-container {
+  background-color: #f9f9f9;
+}
+.opretOpslag-container2 {
+  max-width: 350px;
+  margin: 0 auto;
+}
+.input-navn {
+  font-family: "Montserrat", sans-serif;
+  width: 344px;
+  display: flex;
+  margin: 0 auto;
+  height: 50px;
+  color: #777777;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 16px 16px 15px 16px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.input-navn2 {
+  font-family: "Montserrat", sans-serif;
+  width: 344px;
+  resize: none;
+  display: flex;
+  margin: 0 auto;
+  height: 119px;
+  color: #777777;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 16px 16px 15px 16px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.omarade1 {
+  font-family: "Montserrat", sans-serif;
+  width: 122px;
+  height: 50px;
+  color: #777777;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 16px 16px 15px 16px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.omarade2 {
+  font-family: "Montserrat", sans-serif;
+  width: 202px;
+  height: 50px;
+  color: #777777;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 16px 16px 15px 16px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.selectmusicians {
+  font-family: "Montserrat", sans-serif;
+  width: 345px;
+  height: 50px;
+  color: #777777;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 16px 16px 15px 16px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.multiselect-gender {
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.niveau {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 344px;
+  display: flex;
+  margin: 0 auto;
+  height: 50px;
+  color: #777777;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 16px 16px 15px 16px;
+  box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.44);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.opslag-title {
+  font-family: "Oswald", sans-serif;
+  color: $mainBlue;
+  padding-top: 20px;
+}
+
+.opslag-subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: $mainBlue;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 17px;
+  margin-left: 8px;
+}

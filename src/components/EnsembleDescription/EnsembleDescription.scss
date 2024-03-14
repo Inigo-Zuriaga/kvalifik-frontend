@@ -1,0 +1,67 @@
+.ensemble-description {
+  display: flex;
+  flex-direction: column;
+  background-color: $mainWhite;
+  padding: 20px;
+
+  h2 {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: bold;
+    color: $mainBlue;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 25px;
+  }
+
+  .genrer-container {
+    &__genrer {
+      display: block;
+      margin-bottom: 17px;
+
+      a {
+        display: inline-block;
+        padding: 6px 14px;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color: $mainBlue;
+        background-color: $lightGrey;
+        margin: 0 8px 8px 0;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .person {
+    margin-bottom: 30px;
+
+    p {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      float: right;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      text-decoration: none;
+      color: $mainBlue;
+      border: 1px solid $lightGrey;
+      border-radius: 4px;
+      padding: 6px;
+    }
+  }
+
+  button {
+    @include button2();
+  }
+}
