@@ -4,13 +4,24 @@ import "..//..//assets/styles.scss";
 import LatestPost from "../LatestPost/LatestPost";
 import jwtDecode from "jwt-decode";
 
+interface DecodedToken {
+  user: {
+    name: string;
+    surname: string;
+    location: string;
+    instrument: string;
+    genre: string;
+    experience: string;
+    description: string;
+  };
+}
+
 function ProfileUser() {
   const [musiker, setMusiker] = useState([]);
   const [tokenTrue, setTokenTrue] = useState(localStorage.getItem("token"));
 
-  if (tokenTrue && tokenTrue != "undefined") {
-    //token exist
-    const decoded = jwtDecode(tokenTrue);
+  if (tokenTrue && tokenTrue !== "undefined") {
+    const decoded: DecodedToken = jwtDecode(tokenTrue);
     console.log(decoded);
 
     var profilename = decoded.user.name + " " + decoded.user.surname;
@@ -20,13 +31,9 @@ function ProfileUser() {
     var experience = decoded.user.experience;
     var description = decoded.user.description;
   }
-  if (!tokenTrue || tokenTrue == "undefined") {
-    //token no exist
+  if (!tokenTrue || tokenTrue === "undefined") {
     localStorage.removeItem("token");
   }
-
-  //   const id = '63bc0cf76909baa7312ed73d' ;
-  // const musikerWithEmail = musiker.filter(musician => musician._id === id);
 
   return (
     <>

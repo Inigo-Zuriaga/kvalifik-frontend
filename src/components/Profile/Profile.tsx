@@ -6,6 +6,7 @@ import axios from "axios";
 
 const Profile = () => {
   const [musiker, setMusiker] = useState([]);
+  const [loading, setLoading] = useState(true); // Estado para manejar la carga de datos
 
   useEffect(() => {
     try {
@@ -15,12 +16,16 @@ const Profile = () => {
       }).then((response) => {
         console.log(response.data);
         setMusiker(response.data);
-        console.log(musiker);
+        setLoading(false); // Cambia el estado a falso una vez que los datos están disponibles
       });
     } catch (error) {
       console.error(error);
     }
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>; // Muestra un indicador de carga mientras se están cargando los datos
+  }
 
   function getCurrentURL() {
     return window.location.href.slice(-1).toString();

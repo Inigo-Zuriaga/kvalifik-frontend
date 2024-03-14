@@ -19,7 +19,6 @@ function NavBar() {
   function handleNavigate2() {
     setOpen(!open);
     localStorage.removeItem("token");
-    navigate("/");
   }
 
   return (
